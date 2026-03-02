@@ -99,3 +99,33 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+
+/* =========================
+   Responsive - Pantallas pequeñas
+========================= */
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    .nav-links {
+        flex-direction: column;   /* En pantallas pequeñas el menú aparece vertical */
+        gap: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .section {
+        padding: 15px;
+    }
+
+}
